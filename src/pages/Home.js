@@ -1,0 +1,10 @@
+import React from "react";
+
+export default function Home() {
+    return(
+        <>
+        <h1>Hey</h1>
+        <p>hi</p>
+    </>
+    );
+}
