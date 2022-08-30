@@ -2,10 +2,10 @@
 
 nav {
 	width: 5%;
-	position: sticky;
+	position: fixed;
 	z-index: 10;
 	padding: 1.2em 0;
-	color: black;
+	color: white;
 	background-color: var(--darkAccent);
 	max-height: 100%;
     display: flex;
