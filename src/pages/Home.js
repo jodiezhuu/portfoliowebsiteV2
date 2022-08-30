@@ -10,8 +10,8 @@ export default function Home() {
 		<section ref={homeRef} id='homeContainer'>
 			<img className = 'homeBackground' src={process.env.PUBLIC_URL + imgBackground}></img>
 			<h1 className = 'header'>2A Computer Science Student at the University of Waterloo</h1>
+			<p className = 'subtitle'>Seeking Summer 2023 Internships</p>
 			<img className = 'logo' src={process.env.PUBLIC_URL + logoBackground}></img>
-			<p className = 'header'>Seeking Summer 2023 Internships</p>
 		</section>
 		</>
 	);

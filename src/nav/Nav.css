@@ -7,11 +7,15 @@ nav {
 	padding: 1.2em 0;
 	color: white;
 	background-color: var(--darkAccent);
-	max-height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     margin-left: auto;
+	right: 0;
+	float: right;
+	margin-right: 2%;
+	vertical-align: middle;
+	padding-top: 25%;
 }
 
 nav span {
