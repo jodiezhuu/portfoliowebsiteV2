@@ -1,6 +1,6 @@
 import React from 'react';
 import { useNav } from '../customHooks/useNav';
-import { useParams } from 'react-router-dom';
+import './About.css'
 
 export default function About() {
 
@@ -9,7 +9,7 @@ export default function About() {
 	return (
 		<section ref={aboutRef} id='aboutContainer'>
 			<div>
-				<h3>ABOUT</h3>
+				<h1 className='header'>ABOUT ME</h1>
 				<p>This is the about section</p>
 			</div>
 		</section>

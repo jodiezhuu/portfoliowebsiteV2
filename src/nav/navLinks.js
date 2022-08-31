@@ -1,4 +1,4 @@
 export const navLinks = [
-	{ navLinkId: 'Home', scrollToId: 'homeContainer' },
-	{ navLinkId: 'About', scrollToId: 'aboutContainer' }
+	{ navLinkId: '•', scrollToId: 'homeContainer'},
+	{ navLinkId: '•', scrollToId: 'aboutContainer'}
 ];

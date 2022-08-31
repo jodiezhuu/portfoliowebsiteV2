@@ -1,0 +1,15 @@
+.header{
+    padding-top: 10px;
+    padding-left: 30px;
+    color: white;
+    z-index: 1;
+    position: static;
+    font-family: 'Mukta', sans-serif;
+    text-align: center;
+}
+
+body{
+    background-color: black;
+    min-height: 975px;
+    position: static;
+}
