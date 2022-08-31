@@ -42,4 +42,5 @@ nav span.activeClass i {
 
 nav span.activeClass {
 	fill: white;
+	opacity: 1;
 }
