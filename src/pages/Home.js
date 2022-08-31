@@ -8,10 +8,15 @@ export default function Home() {
 	return (
 		<>
 		<section ref={homeRef} id='homeContainer'>
-			<img className = 'homeBackground' src={process.env.PUBLIC_URL + imgBackground}></img>
-			<h1 className = 'header'>2A Computer Science Student at the University of Waterloo</h1>
-			<p className = 'subtitle'>Seeking Summer 2023 Internships</p>
-			<img className = 'logo' src={process.env.PUBLIC_URL + logoBackground}></img>
+			<body>
+				<img className = 'homeBackground' src={process.env.PUBLIC_URL + imgBackground}></img>
+				<h1 className = 'header'>2A Computer Science Student at University of Waterloo</h1>
+				<p className = 'subtitle'>Seeking Summer 2023 Internships</p>
+				<div>
+					<img className = 'logo' src={process.env.PUBLIC_URL + logoBackground}></img>
+					<img className = 'aboutMePic' src={process.env.PUBLIC_URL + '/imgs/aboutme.png'}></img>
+				</div>
+			</body>
 		</section>
 		</>
 	);
