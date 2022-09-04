@@ -1,8 +1,8 @@
 .projectsPageBreak {
     overflow: clip; /* For IE */
     border: none;
-    border-top: 5px double #6B6356;
-    color: #6B6356;
+    border-top: 4px double #D3D3D3;
+    color: #D3D3D3;
     padding-bottom: 0px;
 }
 
@@ -95,7 +95,7 @@
 
 .projectsContainer {
     background-color: #545049;
-    padding-bottom: 20px;
+    padding-bottom: 50px;
     text-align: center;
 }
 

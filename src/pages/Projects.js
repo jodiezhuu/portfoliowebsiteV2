@@ -28,7 +28,8 @@ export default function Projects() {
               timer and allows users to set the amount of time they want 
               to study for. At the end of each study session, users are 
               rewarded a collectable monster that can be checked on the 
-              monster shelf.
+              monster shelf. This was built with React Native, TS/JS, and
+              Realm by MongoDB. 
               </Card.Text>
               </Card.Body>
               </Card>
@@ -41,7 +42,7 @@ export default function Projects() {
               <Card.Text>
               A stock portfolio algorithm that dynamically analyzes live financial data 
               to produce the safest portfolio from any list of US stock tickers using 
-              Python NumPy and Pandas;
+              Python NumPy and Pandas.
               </Card.Text>
               </Card.Body>
               </Card>
@@ -54,13 +55,14 @@ export default function Projects() {
               <Card.Text>
               After users input their costs, BudgetBud returns
               back a recommended amount for individuals to save 
-              and how much they should spend each month.
+              and how much they should spend each month. This was 
+              one of my first ever projects built with React/CSS!
               </Card.Text>
               </Card.Body>
               </Card>
               </a>
               </div>
-              <a href='../../public/JodieZhuResume.pdf' target = '_blank'>
+              <a href='https://drive.google.com/file/d/1qAa_L49eThV-Fs2ABokElx6XblPM7nIC/view?usp=sharing' target = '_blank'>
               <button className = 'resumeButton'>DOWNLOAD CV</button>
               </a>
         </section>
