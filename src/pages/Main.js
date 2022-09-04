@@ -1,10 +1,11 @@
 import React from 'react';
-import { Home, About } from './';
+import { Home, About, Projects } from './';
 
 const Main = () => (
 	<main>
 		<Home />
 		<About />
+		<Projects />
 	</main>
 );
 
