@@ -99,4 +99,7 @@ body {
   .logo {
     padding-top: 40%;
   }
+  .subtitle {
+    padding-top: 130px;
+  }
 }
