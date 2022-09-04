@@ -1,3 +1,10 @@
+.vl {
+	border-right: 1px solid white;
+	height: 900px;
+	opacity: 0.5;
+	z-index: 0;
+	position: absolute;
+}
 
 nav {
 	width: 5%;
@@ -11,14 +18,13 @@ nav {
     margin-left: auto;
 	right: 0;
 	float: right;
-	margin-right: 1px;
-	vertical-align: middle;
-	padding-top: 25%;
-	border-radius: 50%;
+	padding-top: 10%;
+	animation-delay: 5s;
+	animation: navAnimate ease 5s; 
 }
 
 nav span {
-	font-size: 70px;
+	font-size: 75px;
 	border-bottom: 1px solid transparent;
 	opacity: 0.5;
 	margin: -15px;
@@ -43,4 +49,13 @@ nav span.activeClass i {
 nav span.activeClass {
 	fill: white;
 	opacity: 1;
+}
+
+@keyframes navAnimate {
+	0% {
+		width: 0;
+	}
+	100% {
+		width: 5%;
+	}
 }
