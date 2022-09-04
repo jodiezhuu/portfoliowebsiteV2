@@ -1,4 +1,4 @@
-.title {
+.aboutTitle {
     align-items: center;
     color: #D3D3D3;
     font-family: 'Mukta', sans-serif;
@@ -8,6 +8,7 @@
     letter-spacing: 10px;
     display: block;
     text-align: center;
+    padding: 30px;
 }
 
 .description {
@@ -20,21 +21,34 @@
     letter-spacing: 1.5px;
     display: block;
     text-align: center;
+    padding: 10px;
 }
 
-.spotifyIcon{
+.spotifyIcon {
     color: #D3D3D3;
     margin-left: auto;
     margin-right: auto;
     display: block;
-    padding-top: 10px;
-    padding-bottom: 30px;
+    padding-top: 40px;
+    padding-bottom: 60px;
     width: 60px;
     height: 60px;
+    page-break-after: always;
+}
+
+.pageBreak {
+    overflow: clip; /* For IE */
+    border: none;
+    border-top: medium double #545049;
+    color: #545049;
+    padding-bottom: 0px;
+}
+
+.spotifyIcon:hover {
+    opacity: 0.5;
 }
 
 body {
-    background-color: black;
     min-height: 975px;
     position: static;
 }
