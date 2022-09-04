@@ -1,0 +1,117 @@
+.projectsPageBreak {
+    overflow: clip; /* For IE */
+    border: none;
+    border-top: 5px double #6B6356;
+    color: #6B6356;
+    padding-bottom: 0px;
+}
+
+.projectsTitle {
+    align-items: center;
+    color: #D3D3D3;
+    font-family: 'Mukta', sans-serif;
+    max-width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    letter-spacing: 10px;
+    display: block;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.projectsSubTitle {
+    text-align: center;
+    color: #D3D3D3;
+    font-family: 'Mukta', sans-serif;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+
+.studyIcon {
+    height: 100px;
+    width: 120px;
+}
+
+.stockIcon {
+    height: 100px; 
+    width: 120px;
+    padding-top: 10px;
+}
+
+.budgetIcon {
+    height: 100px;
+    width: 120px;
+    padding-top: 10px;
+}
+
+.githubIcon {
+    height: 30px;
+    width: 30px;
+}
+
+.firstCard {
+    text-align: center;
+    padding: 20px;
+    display: inline-block;
+    border: 2px solid;
+    min-height: 500px;
+    font-family: 'Mukta', sans-serif;
+    letter-spacing: 2px;
+}
+
+.secondCard {
+    text-align: center;
+    padding: 20px;
+    display: block;
+    border: 2px solid;
+    min-height: 500px;
+    font-family: 'Mukta', sans-serif;
+    letter-spacing: 2px;
+}
+
+.secondCard:hover, .thirdCard:hover {
+    opacity: 0.75;
+}
+
+.thirdCard {
+    text-align: center;
+    padding: 20px;
+    display: block;
+    border: 2px solid;
+    min-height: 500px;
+    font-family: 'Mukta', sans-serif;
+    letter-spacing: 2px;
+}
+
+.columns {
+    column-count: 3;
+    column-gap: 40px;
+    padding-right: 225px;
+    padding-left: 225px;
+    justify-content: center;
+    display: table-cell;
+    padding-bottom: 30px;
+}
+
+.projectsContainer {
+    background-color: #545049;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.resumeButton {
+    background-color: #545049;
+    font-family: 'Mukta', sans-serif;
+    height: 50px;
+    width: 200px;
+    border: 90%;
+    border-style: solid;
+    color: #D3D3D3;
+    opacity: 0.90;
+}
+
+a { color: #D3D3D3; text-decoration: none} /* Globally */
+a:visited { text-decoration: none;}
+a:hover { text-decoration: none; opacity: 0.5;}
+a:focus { text-decoration: none;  opacity: 0.5; }
+a:hover, a:active { text-decoration: none;}
