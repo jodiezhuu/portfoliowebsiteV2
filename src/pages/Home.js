@@ -7,7 +7,7 @@ export default function Home() {
 	const logoBackground = '/imgs/jodielogo.png'
 	return (
 		<>
-		<section ref={homeRef} id='homeContainer'>
+		<section className = 'homeContainer' ref={homeRef} id='homeContainer'>
 			<body>
 				<img className = 'homeBackground' src={process.env.PUBLIC_URL + imgBackground}></img>
 				<h1 className = 'header'>2A Computer Science Student at University of Waterloo</h1>

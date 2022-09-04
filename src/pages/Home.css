@@ -15,10 +15,12 @@
     position: relative;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 25%;
-    height: 100px;
-    width: 260px;
+    padding-top: 15%;
+    height: 300px;
+    width: 350px;
     animation: resizeAnimation ease 3s;
+    opacity: 0.95;
+    filter: brightness(80%);
 }
 
 .header {
@@ -51,7 +53,7 @@
   border-width: 5px;
   padding: 10px;
   border-style: solid;
-  margin-top: 275px;
+  margin-top: 200px;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -59,11 +61,15 @@
   animation: fadeInAnimation ease 3s;
 }
 
+.homeContainer {
+  background-color: #4A443E;
+}
+
 body {
     animation: fadeInAnimation ease 3s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
-    background-color: black;
+    background-color: #4A443E;
     min-height: 975px;
     position: static;
     page-break-after: avoid;
@@ -80,11 +86,11 @@ body {
 
 @keyframes resizeAnimation {
   0% {
-    height: 120px;
-    width: 312px;
+    height: 150px;
+    width: 175px;
   }
   100% {
-    height: 100px;
-    width: 260px;
+    height: 300px;
+    width: 350px;
   }
 }
