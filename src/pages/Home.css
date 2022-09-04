@@ -94,3 +94,9 @@ body {
     width: 350px;
   }
 }
+
+@media only screen and (max-width: 1024px) {
+  .logo {
+    padding-top: 40%;
+  }
+}

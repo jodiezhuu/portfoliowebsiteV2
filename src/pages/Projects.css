@@ -115,3 +115,25 @@ a:visited { text-decoration: none;}
 a:hover { text-decoration: none; opacity: 0.5;}
 a:focus { text-decoration: none;  opacity: 0.5; }
 a:hover, a:active { text-decoration: none;}
+
+@media only screen and (max-width: 1024px) {
+    .columns {
+        column-count: unset;    
+        padding-right: 80px;
+        padding-left: 80px;
+    }
+    .firstCard, .secondCard, .thirdCard {
+        text-align: center;
+        padding: 20px;
+        display: inline-block;
+        border: 2px solid;
+        min-height: 300px;
+        font-family: 'Mukta', sans-serif;
+        letter-spacing: 2px;
+        align-items: center;
+    }
+    .projectsSubTitle {
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+}
