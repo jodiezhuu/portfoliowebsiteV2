@@ -100,6 +100,17 @@ body {
     padding-top: 40%;
   }
   .subtitle {
-    padding-top: 130px;
+    padding-top: 60px;
+    text-align: center;
+    font-size: 10px;
+  }
+  .header {
+    padding-top: 40px;
+    font-size: 10px;
+    text-align: center;
+  }
+  .header, .subtitle {
+    padding-left: 25px;
+    padding-right: 20px;
   }
 }
