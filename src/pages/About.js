@@ -17,7 +17,7 @@ export default function About() {
 					in agile environments, building backends, features, and infrastructure. 
 				<br />
 				<br />
-					I am a curious learner and I love to apply my critical and
+					I am a curious learner and I love to apply my critical thinking and
 					problem-solving skills to coding! Specifically, I enjoy full-stack
 					development and data science with technologies including Python,
 					React, and Java.
