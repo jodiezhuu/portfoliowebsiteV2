@@ -47,7 +47,7 @@ export default function Projects() {
               </Card.Body>
               </Card>
             </a>
-            <a href='https://github.com/jodiezhuu/BudgetBud' target='_blank'>
+            <a href='https://budgetbud.vercel.app/' target='_blank'>
               <Card className = 'thirdCard'>
               <FcMoneyTransfer className = 'budgetIcon'/>
               <Card.Body>
