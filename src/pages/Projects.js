@@ -34,6 +34,7 @@ export default function Projects() {
               </Card.Body>
               </Card>
             </a>
+            <br />
             <a href='https://github.com/jodiezhuu/SP500AlgoBot' target='_blank'>
               <Card className = 'secondCard'>
               <AiOutlineStock className = 'stockIcon'/>
@@ -47,6 +48,7 @@ export default function Projects() {
               </Card.Body>
               </Card>
             </a>
+            <br />
             <a href='https://budgetbud.vercel.app/' target='_blank'>
               <Card className = 'thirdCard'>
               <FcMoneyTransfer className = 'budgetIcon'/>
