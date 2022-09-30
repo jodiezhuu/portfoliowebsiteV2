@@ -51,20 +51,20 @@
 
 .firstCard {
     text-align: center;
-    padding: 20px;
+    padding: 10px;
     display: inline-block;
     border: 2px solid;
-    min-height: 550px;
+    min-height: 600px;
     font-family: 'Mukta', sans-serif;
     letter-spacing: 2px;
 }
 
 .secondCard {
     text-align: center;
-    padding: 20px;
+    padding: 10px;
     display: block;
     border: 2px solid;
-    min-height: 550px;
+    min-height: 600px;
     font-family: 'Mukta', sans-serif;
     letter-spacing: 2px;
 }
@@ -75,10 +75,10 @@
 
 .thirdCard {
     text-align: center;
-    padding: 20px;
+    padding: 10px;
     display: block;
     border: 2px solid;
-    min-height: 550px;
+    min-height: 600px;
     font-family: 'Mukta', sans-serif;
     letter-spacing: 2px;
 }
@@ -86,11 +86,11 @@
 .columns {
     column-count: 3;
     column-gap: 40px;
-    padding-right: 225px;
-    padding-left: 225px;
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-bottom: 5%;
     justify-content: center;
     display: table-cell;
-    padding-bottom: 30px;
 }
 
 .projectsContainer {
@@ -106,7 +106,8 @@
     width: 200px;
     border: 90%;
     border-style: solid;
-    color: #D3D3D3;
+    border-color: #ADADAD;
+    color: #ADADAD;
     opacity: 0.90;
 }
 
@@ -116,8 +117,9 @@ a:hover { text-decoration: none; opacity: 0.5;}
 a:focus { text-decoration: none;  opacity: 0.5; }
 a:hover, a:active { text-decoration: none;}
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 988px) {
     .columns {
+        align-items: center;
         column-count: unset;    
         padding-right: 80px;
         padding-left: 80px;

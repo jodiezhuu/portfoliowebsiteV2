@@ -40,9 +40,9 @@ export default function Projects() {
               <Card.Body>
               <Card.Title><h1><b>S&P500AlgoBot</b></h1></Card.Title>
               <Card.Text>
-              A stock portfolio algorithm that dynamically analyzes live financial data 
-              to produce the safest portfolio from any list of US stock tickers using 
-              Python NumPy and Pandas.
+              S&P500AlgoBot is a stock algorithm that dynamically analyzes live financial data 
+              to produce the safest portfolio from a .csv file of US stock tickers using Python NumPy and Pandas.
+              With our weight optimization algorithm, the original ticker list along with its optimal weightings is produced.
               </Card.Text>
               </Card.Body>
               </Card>
