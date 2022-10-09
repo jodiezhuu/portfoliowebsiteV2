@@ -7,12 +7,8 @@
 }
 
 .projectsTitle {
-    align-items: center;
     color: #D3D3D3;
     font-family: 'Mukta', sans-serif;
-    max-width: 30%;
-    margin-left: auto;
-    margin-right: auto;
     letter-spacing: 10px;
     display: block;
     text-align: center;
@@ -57,6 +53,8 @@
     min-height: 600px;
     font-family: 'Mukta', sans-serif;
     letter-spacing: 2px;
+    max-width: 600px;
+    min-width: 200px;
 }
 
 .secondCard {
@@ -67,6 +65,8 @@
     min-height: 600px;
     font-family: 'Mukta', sans-serif;
     letter-spacing: 2px;
+    max-width: 600px;
+    min-width: 200px;
 }
 
 .secondCard:hover, .thirdCard:hover {
@@ -81,16 +81,18 @@
     min-height: 600px;
     font-family: 'Mukta', sans-serif;
     letter-spacing: 2px;
+    max-width: 600px;
+    min-width: 200px;
 }
 
 .columns {
     column-count: 3;
     column-gap: 40px;
-    padding-right: 10%;
-    padding-left: 10%;
+    padding-right: 15%;
+    padding-left: 15%;
     padding-bottom: 5%;
     justify-content: center;
-    display: table-cell;
+    display: flex;
 }
 
 .projectsContainer {
@@ -121,8 +123,8 @@ a:hover, a:active { text-decoration: none;}
     .columns {
         align-items: center;
         column-count: unset;    
-        padding-right: 80px;
-        padding-left: 80px;
+        display: flex;
+        flex-direction: column;
     }
     .firstCard, .secondCard, .thirdCard {
         text-align: center;
@@ -133,9 +135,13 @@ a:hover, a:active { text-decoration: none;}
         font-family: 'Mukta', sans-serif;
         letter-spacing: 2px;
         align-items: center;
+        min-width: 200px;
     }
     .projectsSubTitle {
         padding-right: 30px;
         padding-left: 30px;
+    }
+    .projectsTitle {
+        text-align: center;
     }
 }
