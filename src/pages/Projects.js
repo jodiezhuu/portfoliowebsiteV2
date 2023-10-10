@@ -64,7 +64,7 @@ export default function Projects() {
               </Card>
               </a>
               </div>
-              <a href='https://drive.google.com/file/d/1qAa_L49eThV-Fs2ABokElx6XblPM7nIC/view?usp=sharing' target = '_blank'>
+              <a href='https://drive.google.com/file/d/1xAx7PQ0YvCo3_zMJ61UuEXVFFmARpf5B/view?usp=sharing' target = '_blank'>
               <button className = 'resumeButton'>DOWNLOAD CV</button>
               </a>
         </section>
