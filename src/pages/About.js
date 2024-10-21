@@ -12,9 +12,9 @@ export default function About() {
 			<h1 className = 'aboutTitle'>ABOUT</h1>
 				<p className = 'description'>
 					Hi everyone! My name is Jodie and I'm a Computer Science student at the 
-					University of Waterloo. I've previously interned at Cambio AI, Tech Matters, MedMe
+					University of Waterloo. I've previously interned at AppLovin, Cambio AI, Tech Matters, MedMe
 					Health, and adnog technology as a software engineer, working 
-					in agile environments, building backends, features, and infrastructure. 
+					in agile environments, building APIs, full stack features, and internal tool infra. 
 				<br />
 				<br />
 					I enjoy mind puzzles and translating these skills to my personal side projects and
@@ -23,7 +23,7 @@ export default function About() {
 				<br />
 				<br />
 					In my off time, I like to stay physically active. Particularly, I'm an 
-					amateur golfer and a spin addict!
+					amateur golfer and a pilates addict!
 				</p>
 			<a href='https://open.spotify.com/user/itsmejodie_12?si=4c8d72843f844994' target='_blank'>
 				<BsSpotify className = 'spotifyIcon'/>
