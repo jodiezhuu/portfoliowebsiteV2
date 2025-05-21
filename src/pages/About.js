@@ -12,14 +12,12 @@ export default function About() {
 			<h1 className = 'aboutTitle'>ABOUT</h1>
 				<p className = 'description'>
 					Hi everyone! My name is Jodie and I'm a Computer Science student at the 
-					University of Waterloo. I've previously interned at AppLovin, Cambio AI, Tech Matters, MedMe
-					Health, and adnog technology as a software engineer, working 
-					in agile environments, building APIs, full stack features, and internal tool infra. 
+					University of Waterloo. I've previously interned at Tesla, AppLovin, Cambio AI, Tech Matters, and MedMe
+					Health as a software engineer, with experience in distributed systems and databases. 
 				<br />
 				<br />
 					I enjoy mind puzzles and translating these skills to my personal side projects and
-					in the professional workplace. Specifically, I have experience with full-stack
-					and iOS development, specializing in frameworks like React and Django.
+					in the professional workplace.
 				<br />
 				<br />
 					In my off time, I like to stay physically active. Particularly, I'm an 

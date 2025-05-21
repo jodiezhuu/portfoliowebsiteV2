@@ -11,10 +11,10 @@ export default function Home() {
 			<body>
 				<img className = 'homeBackground' src={process.env.PUBLIC_URL + imgBackground}></img>
 				<h1 className = 'header'>3B Computer Science Student at University of Waterloo</h1>
-				<p className = 'subtitle'>Seeking Summer 2025 Internships</p>
+				<p className = 'subtitle'>Seeking Fall 2025 Internships</p>
 				<div>
 					<img className = 'logo' src={process.env.PUBLIC_URL + logoBackground}></img>
-					<img className = 'aboutMePic' src={process.env.PUBLIC_URL + '/imgs/aboutme.png'}></img>
+					<img className = 'aboutMePic' src={process.env.PUBLIC_URL + '/imgs/profpic.jpg'}></img>
 				</div>
 			</body>
 		</section>
